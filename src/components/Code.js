@@ -1,14 +1,26 @@
 import React from 'react';
-import AceEditor from 'react-ace';
+// import AceEditor from 'react-ace';
 import { StaticQuery, graphql } from 'gatsby';
 
 import Output from '../components/Output';
 import Success from '../components/Success';
 
-import 'brace/mode/html';
-import 'brace/theme/monokai';
+// import 'brace/mode/html';
+// import 'brace/theme/monokai';
 
 import { getUnlockedLevel, setUnlockedLevel } from '../store';
+
+const Editor = (props) => {
+  if (typeof window !== 'undefined') {
+    const Ace = require('react-ace').default;
+    require('brace/mode/html');
+    require('brace/theme/monokai');
+
+    return <Ace {...props}/>
+  }
+
+  return null;
+}
 
 class Code extends React.Component {
   state = {
@@ -58,7 +70,7 @@ class Code extends React.Component {
   render() {
     return (
       <>
-        <AceEditor
+        <Editor
           mode="html"
           theme="monokai"
           onChange={this.handleInput}
