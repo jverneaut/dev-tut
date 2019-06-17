@@ -15,7 +15,7 @@ Il existe de nombreuses balises, notamment :
 
 - `<p></p>` : permet d'afficher un paragraphe,
 - `<img>` : permet d'afficher une image,
-- `<div></div>` : permet la création de sections au sain d'une page,
+- `<div></div>` : permet la création de sections au sein d'une page,
 - ...
 
 Dans le prochain cours, je vais te montrer comment créer toi-même tes premiers éléments.
