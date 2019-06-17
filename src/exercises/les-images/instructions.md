@@ -7,7 +7,7 @@ Pour afficher une image, il lui faut une source, c'est à dire l'endroit où se 
 Il faut ensuite mettre cette source dans la propriété `src` de la balise `<img>`, comme ceci :
 
 ```html
-<img src="https://lorem.picsum/400/300">
+<img src="https://picsum.photos/400/300">
 ```
 
 ### Instructions
