@@ -92,7 +92,6 @@ class Code extends React.Component {
           }
           render={data => {
             const exercises = data.allExercise.nodes;
-            console.log(this.state);
             if (this.state.achieved) return null;
             return (
               <div>
