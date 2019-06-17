@@ -1,6 +1,8 @@
 import React from 'react';
 import { StaticQuery, graphql, Link } from 'gatsby';
 
+import logo from '../images/logo.svg';
+
 import { getUnlockedLevel } from '../store';
 
 const SideBar = () => {
@@ -46,6 +48,7 @@ const SideBar = () => {
                 )
               }
             })}
+            <img src={logo} alt="AW" class="sidebar__logo" />
           </div>
         )
       }}
