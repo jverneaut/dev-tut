@@ -58,6 +58,17 @@ article pre + h2{
   margin-top: 24px;
 }
 
+article p + h3,
+article h1 + h3,
+article h2 + h3,
+article h3 + h3,
+article h4 + h3,
+article h5 + h3,
+article ul + h3,
+article pre + h3{
+  margin-top: 24px;
+}
+
 article p + p,
 article h1 + p,
 article h2 + p,
