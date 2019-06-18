@@ -48,7 +48,11 @@ const SideBar = () => {
                 )
               }
             })}
-            <img src={logo} alt="AW" class="sidebar__logo" />
+
+            <div className="sidebar__footer">
+              <img src={logo} alt="AW" />
+              <a href="https://github.com/jverneaut/dev-tut" target="_blank">Code source</a>
+            </div>
           </div>
         )
       }}

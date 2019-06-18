@@ -49,9 +49,22 @@
   border: none;
 }
 
-.sidebar__logo {
+.sidebar__footer {
+  left: 0;
+  bottom: 0;
   padding: 16px;
   position: absolute;
-  bottom: 0;
+  width: $sidebar-width;
+  box-sizing: border-box;
+}
+
+.sidebar__footer img {
   width: 32px;
+}
+
+.sidebar__footer a {
+  color: black;
+  font-size: 12px;
+  right: 16px;
+  position: absolute;
 }
