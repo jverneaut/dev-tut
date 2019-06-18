@@ -14,5 +14,7 @@ Sans rentrer dans le détail, il s'agit d'une fonction qui s'appelle `alert` et 
 
 ### Instructions
 Ta mission est double cette fois-ci :
-- change d'abord le texte du bouton pour qu'il affiche « Popup »
+- change d'abord le texte du bouton pour qu'il affiche `Popup`
 - change ensuite le contenu de la fonction `alert()` pour afficher `Vive le HTML !`
+
+*Attention, il ne faut pas oublier les guillemets dans la fonction alert. Observe bien comment l'exemple est construit avant de modifier le code.*
