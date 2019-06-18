@@ -1,4 +1,4 @@
-Tu connais désormais les rudiments du HTML. Mais ce que l'on a fait jusqu'à maintenant n'est pas très beau tu en conviendra. Il est temps d'ajouter un petit peu de couleur !
+Tu connais désormais les rudiments du HTML. Mais ce que l'on a fait jusqu'à maintenant n'est pas très beau tu en conviendras. Il est temps d'ajouter un petit peu de couleur !
 
 Les balises que nous avons vues jusqu'à présent permettent non seulement de mettre en forme du contenu, elles permettent également d'ajouter des propriétés à ce contenu.
 
