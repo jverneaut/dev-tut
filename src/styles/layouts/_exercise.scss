@@ -10,7 +10,7 @@
   top: 0;
   bottom: 0;
   right: calc(50% - #{$sidebar-width / 2});
-  padding: 40px;
+  padding: $panes-padding;
   overflow: scroll;
   border-right: 1px solid $border-color;
 }
@@ -27,5 +27,5 @@
   left: calc(50% + #{$sidebar-width / 2});
   right: 0;
   background: $light;
-  padding: 40px;
+  padding: $panes-padding;
 }
