@@ -29,21 +29,21 @@ const SideBar = () => {
                 return (
                   <Link className="sidebar__link" to={'/' + exercise.slug} key={exercise.slug}>
                     <div className="badge badge--current"></div>
-                    {index} — {exercise.name}
+                    {index + 1} — {exercise.name}
                   </Link>
                 )
               } else if (index < unlockedLevel) {
                 return (
                   <Link className="sidebar__link" to={'/' + exercise.slug} key={exercise.slug}>
                     <div className="badge badge--success"></div>
-                    {index} — {exercise.name}
+                    {index + 1} — {exercise.name}
                   </Link>
                 )
               } else {
                 return (
                   <div className="sidebar__link sidebar__link--disabled" key={exercise.slug}>
                     <div className="badge"></div>
-                    {index} — {exercise.name}
+                    {index + 1} — {exercise.name}
                   </div>
                 )
               }
