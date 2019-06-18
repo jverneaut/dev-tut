@@ -11,7 +11,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        Hello
+        Chargement...
       </Layout>
     )
   }
